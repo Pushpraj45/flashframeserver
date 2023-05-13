@@ -46,7 +46,7 @@ app.get("/", (req, res) => {
 
 const PORT = process.env.PORT || 4001;
 
-dbconnect();
+dbConnect();
 app.listen(PORT, () => {
   console.log(`listening on port: ${PORT}`);
 });
