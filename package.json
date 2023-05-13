@@ -1,24 +1,15 @@
 {
-  "name": "social-media-project",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-
-    "serve": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pushpraj45/Convo-A-social-media-web-app.git"
+    "start": "NODE_ENV=production node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pushpraj45/Convo-A-social-media-web-app/issues"
-  },
-  "homepage": "https://github.com/Pushpraj45/Convo-A-social-media-web-app#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cloudinary": "^1.33.0",
@@ -27,9 +18,8 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.8.4",
+    "mongoose": "^6.8.2",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.22",
     "time-ago": "^0.2.1"
   }
 }
