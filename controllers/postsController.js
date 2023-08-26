@@ -39,6 +39,7 @@ const createPostController = async (req, res) => {
         return res.send(error(500, e.message));
     }
 };
+// like and unlike 
 
 const likeAndUnlikePost = async (req, res) => {
     try {
